@@ -1,7 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ResourcesSidebar from '../Components/ResourcesSideBar';
-import './Resources.css'; // Import the custom CSS file
 
 const Resources = () => {
   return (
