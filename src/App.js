@@ -32,6 +32,16 @@ import Week7Leetcode from './Pages/Schedule/Week7/Week7Leetcode'
 import Week8Leetcode from './Pages/Schedule/Week8/Week8Leetcode'
 import Week9Leetcode from './Pages/Schedule/Week9/Week9Leetcode'
 import Week10Leetcode from './Pages/Schedule/Week10/Week10Leetcode'
+import Week1Project from './Pages/Schedule/Week1/Week1Project';
+import Week2Project from './Pages/Schedule/Week2/Week2Project';
+import Week3Project from './Pages/Schedule/Week3/Week3Project';
+import Week4Project from './Pages/Schedule/Week4/Week4Project';
+import Week5Project from './Pages/Schedule/Week5/Week5Project';
+import Week6Project from './Pages/Schedule/Week6/Week6Project';
+import Week7Project from './Pages/Schedule/Week7/Week7Project';
+import Week8Project from './Pages/Schedule/Week8/Week8Project';
+import Week9Project from './Pages/Schedule/Week9/Week9Project';
+import Week10Project from './Pages/Schedule/Week10/Week10Project';
 import GitHub from './Pages/resources/github';
 import TechStack from './Pages/resources/techstack';
 
@@ -66,6 +76,18 @@ function App() {
         <Route path = "/schedule/week8/leetcode" element = {<Week8Leetcode/>}></Route>
         <Route path = "/schedule/week9/leetcode" element = {<Week9Leetcode/>}></Route>
         <Route path = "/schedule/week10/leetcode" element = {<Week10Leetcode/>}></Route>
+        <Route path = "/schedule/week1/project" element = {<Week1Project/>}></Route>
+        <Route path = "/schedule/week2/project" element = {<Week2Project/>}></Route>
+        <Route path = "/schedule/week3/project" element = {<Week3Project/>}></Route>
+        <Route path = "/schedule/week4/project" element = {<Week4Project/>}></Route>
+        <Route path = "/schedule/week5/project" element = {<Week5Project/>}></Route>
+        <Route path = "/schedule/week6/project" element = {<Week6Project/>}></Route>
+        <Route path = "/schedule/week7/project" element = {<Week7Project/>}></Route>
+        <Route path = "/schedule/week8/project" element = {<Week8Project/>}></Route>
+        <Route path = "/schedule/week9/project" element = {<Week9Project/>}></Route>
+        <Route path = "/schedule/week10/project" element = {<Week10Project/>}></Route>
+
+
         <Route path = "/resources/github" element = {<GitHub/>}></Route>
         <Route path = "/resources/techstack" element = {<TechStack/>}></Route>
       </Routes>
