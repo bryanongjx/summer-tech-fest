@@ -7,10 +7,10 @@ function Week6Leetcode() {
       <h2 className="text-center">Week 6</h2>
       <NavBarSchedule />
       <div className="container text-center mt-5">
-      <h2>Topic: Arrays and Hashing</h2>
+      <h2>Topic: Trees</h2>
       <h4 className="mt-4">Question of the week:</h4>
       <p>
-        <a href="https://leetcode.com/problems/two-sum/" target="_blank" rel="noopener noreferrer">
+        <a href="https://leetcode.com/problems/same-tree/" target="_blank" rel="noopener noreferrer">
           Click here for the LeetCode question
         </a>
       </p>
