@@ -50,7 +50,7 @@ function App() {
   return (
     <BrowserRouter>
     <NavigationBar/>
-    <div style={{ paddingTop: '30px' }}>
+    <div>
       <Routes>
         <Route path = "/" element = {<Home/>}></Route>
         <Route path = "/Resources" element = {<Resources/>}></Route>

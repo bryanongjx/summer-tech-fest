@@ -6,7 +6,7 @@ const Resources = () => {
   return (
     <div className="row">
         <div className="col-3">
-          <ResourcesSidebar />
+          <ResourcesSidebar/>
         </div>
         <div className="col-9 d-flex flex-column justify-content-start align-items-start">
           {/* Content of your Resources page */}

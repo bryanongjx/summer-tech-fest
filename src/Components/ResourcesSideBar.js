@@ -6,42 +6,36 @@ import { CSidebar, CSidebarNav, CNavItem, CNavGroup } from '@coreui/react';
 const ResourcesSideBar = () => {
   return (
     <CSidebar>
-      <CSidebarNav className>
+      <CSidebarNav>
       <CNavGroup toggler="Getting Started">
-          <CNavItem href="#">Content 3</CNavItem>
-
-          <CNavItem href="#">Content 4</CNavItem>
+          <CNavItem href="/resources/techstack">Tech Stacks</CNavItem>
+          <CNavItem href="#">Development Life Cycles</CNavItem>
+          <CNavItem href="#">Choosing your IDE</CNavItem>
         </CNavGroup>
-        <CNavGroup toggler="Github Version Control">
-          <CNavItem href="#">Content 3</CNavItem>
+        <CNavItem href="/resources/github">GitHub Version Control</CNavItem>
 
-          <CNavItem href="#">Content 4</CNavItem>
-        </CNavGroup>
         <CNavGroup toggler="App Development">
-          <CNavItem href="#">Content 3</CNavItem>
-
-          <CNavItem href="#">Content 4</CNavItem>
+          <CNavItem href="#">React Native</CNavItem>
+          <CNavItem href="#">Flutter</CNavItem>
+          <CNavItem href="#">Swift</CNavItem>
+          <CNavItem href="#">XCode</CNavItem>
         </CNavGroup>
 
         <CNavGroup toggler="Web Development">
-          <CNavItem href="#">Content 3</CNavItem>
-
-          <CNavItem href="#">Content 4</CNavItem>
+          <CNavItem href="#">React.js</CNavItem>
+          <CNavItem href="#">Angular</CNavItem>
         </CNavGroup>
 
-        <CNavGroup toggler="User Guide">
-          <CNavItem href="#">Content 3</CNavItem>
-
-          <CNavItem href="#">Content 4</CNavItem>
+        <CNavGroup toggler="Back End">
+          <CNavItem href="#">Node.js</CNavItem>
+          <CNavItem href="#">Database Storage</CNavItem>
         </CNavGroup>
+
+        <CNavItem href="#">User Guide</CNavItem>
 
       </CSidebarNav>
     </CSidebar>
   );
 };
-
-const sidebar = { 
-    'sidebar-color': "red" 
-  }
 
 export default ResourcesSideBar;
