@@ -12,7 +12,7 @@ const GitHub = () => {
             <ResourcesSidebar />
           </div>
         </div>
-        <div className="col-lg-8 col-md-7 bg-white p-4">
+        <div className="col-lg-8 col-md-7 bg-white p-4 overflow-auto" style={{ height: 'calc(100vh - 64px)' }}>
           <h1 className="mt-4 mb-4">An Overview of Git Version Control</h1>
 
           <h3 className="header">Introduction</h3>
