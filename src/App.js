@@ -44,6 +44,8 @@ import Week9Project from './Pages/Schedule/Week9/Week9Project';
 import Week10Project from './Pages/Schedule/Week10/Week10Project';
 import GitHub from './Pages/resources/github';
 import TechStack from './Pages/resources/techstack';
+import DevelopmentLifeCycles from './Pages/resources/developmentlifecycles';
+import ChoosingYourIde from './Pages/resources/choosingyouride';
 
 
 function App() {
@@ -90,6 +92,8 @@ function App() {
 
         <Route path = "/resources/github" element = {<GitHub/>}></Route>
         <Route path = "/resources/techstack" element = {<TechStack/>}></Route>
+        <Route path = "/resources/developmentlifecycles" element = {<DevelopmentLifeCycles/>}></Route>
+        <Route path = "/resources/choosingyouride" element = {<ChoosingYourIde/>}></Route>
       </Routes>
     </div>
     </BrowserRouter>

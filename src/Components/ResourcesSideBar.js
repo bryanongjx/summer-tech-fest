@@ -9,8 +9,8 @@ const ResourcesSideBar = () => {
       <CSidebarNav>
       <CNavGroup toggler="Getting Started">
           <CNavItem href="/resources/techstack">Tech Stacks</CNavItem>
-          <CNavItem href="#">Development Life Cycles</CNavItem>
-          <CNavItem href="#">Choosing your IDE</CNavItem>
+          <CNavItem href="/resources/developmentlifecycles">Development Life Cycles</CNavItem>
+          <CNavItem href="/resources/choosingyouride">Choosing your IDE</CNavItem>
         </CNavGroup>
         <CNavItem href="/resources/github">GitHub Version Control</CNavItem>
 
