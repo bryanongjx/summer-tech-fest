@@ -26,9 +26,20 @@ const TechStack = () => {
             <div>
               <h3 className="header">Picking the Right Tech Stack</h3>
               <p className="paragraph">
-                Choosing the right tech stack depends on various factors such as the project requirements, development team's
-                expertise, budget, and timeline. A well-selected tech stack can improve productivity, reduce costs, and enhance
-                the quality of the end product.
+                For summer techfest, you should try to pick popular tech stacks. Your tech stack should include a 
+                
+                <ul>1. A frontend framework: React, Angular, etc,</ul>
+                <ul>2. A server-side backend framework: Nodejs, etc. </ul>
+                <ul>3. A database storage system: MongoDB, Firebase, SQL, etc.</ul>
+
+                Popular tech stacks include: MERN stack, MEAN stack
+              </p>
+            </div>
+            <div>
+              <h3 className="header">So.. what tech stack should i use?</h3>
+              <p>
+                It depends. Before you even start coding, go google "top tech stacks for app development" for example if you want to create an app.
+                Do your research and discuss among on your team what technologies you want to adopt.
               </p>
             </div>
             <div>

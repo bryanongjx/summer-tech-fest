@@ -46,6 +46,12 @@ import GitHub from './Pages/resources/github';
 import TechStack from './Pages/resources/techstack';
 import DevelopmentLifeCycles from './Pages/resources/developmentlifecycles';
 import ChoosingYourIde from './Pages/resources/choosingyouride';
+import ReactJs from './Pages/resources/reactresource';
+import ReactNative from './Pages/resources/reactnative';
+import Flutter from './Pages/resources/flutter';
+import Swift from './Pages/resources/swift';
+import Angular from './Pages/resources/angular';
+import UserGuide from './Pages/resources/userguide';
 
 
 function App() {
@@ -55,8 +61,8 @@ function App() {
     <div>
       <Routes>
         <Route path = "/" element = {<Home/>}></Route>
-        <Route path = "/Resources" element = {<Resources/>}></Route>
 
+        {/* Schedule */}
         <Route path = "/schedule" element = {<OverallSchedule/>}></Route>
         <Route path = "/schedule/week1/zoom" element = {<Week1Zoom/>}></Route>
         <Route path = "/schedule/week2/zoom" element = {<Week2Zoom/>}></Route>
@@ -89,11 +95,18 @@ function App() {
         <Route path = "/schedule/week9/project" element = {<Week9Project/>}></Route>
         <Route path = "/schedule/week10/project" element = {<Week10Project/>}></Route>
 
-
+        {/* Resources */}
+        <Route path = "/resources" element = {<Resources/>}></Route>
         <Route path = "/resources/github" element = {<GitHub/>}></Route>
         <Route path = "/resources/techstack" element = {<TechStack/>}></Route>
         <Route path = "/resources/developmentlifecycles" element = {<DevelopmentLifeCycles/>}></Route>
         <Route path = "/resources/choosingyouride" element = {<ChoosingYourIde/>}></Route>
+        <Route path = "/resources/reactjs" element = {<ReactJs/>}></Route>
+        <Route path = "/resources/reactnative" element = {<ReactNative/>}></Route>
+        <Route path = "/resources/flutter" element = {<Flutter/>}></Route>
+        <Route path = "/resources/swift" element = {<Swift/>}></Route>
+        <Route path = "/resources/angular" element = {<Angular/>}></Route>
+        <Route path = "/resources/userguide" element = {<UserGuide/>}></Route>
       </Routes>
     </div>
     </BrowserRouter>
