@@ -12,7 +12,7 @@ const TechStack = () => {
             <ResourcesSidebar />
           </div>
         </div>
-        <div className="col-lg-8 col-md-7 bg-white">
+        <div className="col-lg-8 col-md-7 bg-white p-4">
           <div className="p-4">
             <h1>Tech Stacks</h1>
             <div>
