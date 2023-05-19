@@ -1,6 +1,5 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { RiStackLine } from 'react-icons/ri';
 import ResourcesSidebar from '../../Components/ResourcesSideBar';
 
 const ChoosingYourIde = () => {
@@ -17,22 +16,9 @@ const ChoosingYourIde = () => {
   
             <h3 className="header">Introduction</h3>
             <p>
-              {/* Content */}
-            </p>
-  
-            <h3 className="header">Key Features</h3>
-            <p>
-              {/* Content */}
-            </p>
-  
-            <h3 className="header">Getting started</h3>
-            <p>
-              {/* Content */}
-            </p>
-  
-            <h3 className="header">Additional Resources</h3>
-            <p>
-              {/* Content */}
+              An Integrated Development Environment is basically where you write code, to put it simply. We recommend using VSCode. 
+              Why? Because VSCode is goated and I am biased. You can add alot of useful extensions as well! But feel free to checkout other
+              editors like Intellij or Sublime Text.
             </p>
           </div>
         </div>

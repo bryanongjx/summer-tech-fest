@@ -31,6 +31,14 @@ const GitHub = () => {
             <li>Issue tracking and project management</li>
             <li>Code review and discussion</li>
           </ul>
+          
+          <h3 className="header">What we recommend for summer techfest</h3>
+          <p>
+            <ul>1. Manage your project using github to host your team's repo.</ul>
+            <ul>2. Create a branch for each feature you want to implement, eg branch name: branch/user_registration</ul>
+            <ul>3. Create a pull request for every change you wish to push to the team repo. Have another team member review and approve the change before you merge it. This is compulsary in industrial practice so you should do it.</ul>
+            <ul>4. To do all this, you should have a good understanding of basic git commands, so go learn up on them</ul>
+          </p>
 
           <h3 className="header">Getting started</h3>
           <p>

@@ -15,15 +15,14 @@ const ResourcesSideBar = () => {
         <CNavItem href="/resources/github">GitHub Version Control</CNavItem>
 
         <CNavGroup toggler="App Development">
-          <CNavItem href="#">React Native</CNavItem>
-          <CNavItem href="#">Flutter</CNavItem>
-          <CNavItem href="#">Swift</CNavItem>
-          <CNavItem href="#">XCode</CNavItem>
+          <CNavItem href="/resources/reactnative">React Native</CNavItem>
+          <CNavItem href="/resources/flutter">Flutter</CNavItem>
+          <CNavItem href="/resources/swift">Swift</CNavItem>
         </CNavGroup>
 
         <CNavGroup toggler="Web Development">
-          <CNavItem href="#">React.js</CNavItem>
-          <CNavItem href="#">Angular</CNavItem>
+          <CNavItem href="/resources/reactjs">React.js</CNavItem>
+          <CNavItem href="/resources/angular">Angular</CNavItem>
         </CNavGroup>
 
         <CNavGroup toggler="Back End">
@@ -31,7 +30,7 @@ const ResourcesSideBar = () => {
           <CNavItem href="/resources/database">Database Storage</CNavItem>
         </CNavGroup>
 
-        <CNavItem href="#">User Guide</CNavItem>
+        <CNavItem href="/resources/userguide">User Guide</CNavItem>
 
       </CSidebarNav>
     </CSidebar>
