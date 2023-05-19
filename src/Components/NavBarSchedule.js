@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import { Navbar, Container, Button } from 'reactstrap';
 
 function NavBarSchedule() {
@@ -15,35 +15,35 @@ function NavBarSchedule() {
   const zoomURL = `/schedule/${weekNumber}/zoom`;
   const prevURL = `/schedule/week${parseInt(weekNumber.substring(4)) == 1 ? "1" : (parseInt(weekNumber.substring(4))-1).toString()}/zoom`;
   const nextURL = `/schedule/week${parseInt(weekNumber.substring(4)) == 10 ? "10" : (parseInt(weekNumber.substring(4))+1).toString()}/zoom`;
-
+  
   return (
     <Navbar className="d-flex justify-content-center mt-4">
       <Container tag="form" fluid className="d-flex justify-content-center">
-        <Link to={prevURL}>
-            <Button outline color="secondary" className="me-2" type="button">
+        <NavLink to={prevURL}>
+            <Button outline color="dark" className="me-2" type="button">
             {'<'} Prev Week
             </Button>
-        </Link>
-        <Link to={zoomURL}>
-          <Button outline color="primary" className="me-2" type="button">
+        </NavLink>
+        <NavLink to={zoomURL}>
+          <Button outline color={currentPageURL === zoomURL ? 'primary' : 'dark'} className="me-2" type="button">
             Zoom Lectures
           </Button>
-        </Link>
-        <Link to={leetcodeURL}>
-          <Button outline color="primary" className="me-2" type="button">
+        </NavLink>
+        <NavLink to={leetcodeURL}>
+          <Button outline color={currentPageURL === leetcodeURL ? 'primary' : 'dark'} className="me-2" type="button">
             LeetCode
           </Button>
-        </Link>
-        <Link to={projectURL}>
-          <Button outline color="primary" className="me-2" type="button">
+        </NavLink>
+        <NavLink to={projectURL}>
+          <Button outline color={currentPageURL === projectURL ? 'primary' : 'dark'} className="me-2" type="button">
             Project
           </Button>
-        </Link>
-        <Link to={nextURL}>
-            <Button outline color="secondary" className="me-2" type="button">
+        </NavLink>
+        <NavLink to={nextURL}>
+            <Button outline color="dark" className="me-2" type="button">
             Next Week {'>'}
             </Button>
-        </Link>
+        </NavLink>
       </Container>
     </Navbar>
   );
