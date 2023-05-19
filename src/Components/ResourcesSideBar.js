@@ -27,8 +27,8 @@ const ResourcesSideBar = () => {
         </CNavGroup>
 
         <CNavGroup toggler="Back End">
-          <CNavItem href="#">Node.js</CNavItem>
-          <CNavItem href="#">Database Storage</CNavItem>
+          <CNavItem href="/resources/node">Node.js</CNavItem>
+          <CNavItem href="/resources/database">Database Storage</CNavItem>
         </CNavGroup>
 
         <CNavItem href="#">User Guide</CNavItem>

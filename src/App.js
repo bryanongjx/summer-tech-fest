@@ -46,6 +46,8 @@ import GitHub from './Pages/resources/github';
 import TechStack from './Pages/resources/techstack';
 import DevelopmentLifeCycles from './Pages/resources/developmentlifecycles';
 import ChoosingYourIde from './Pages/resources/choosingyouride';
+import NodeJs from './Pages/resources/node';
+import Database from './Pages/resources/database';
 
 
 function App() {
@@ -94,6 +96,8 @@ function App() {
         <Route path = "/resources/techstack" element = {<TechStack/>}></Route>
         <Route path = "/resources/developmentlifecycles" element = {<DevelopmentLifeCycles/>}></Route>
         <Route path = "/resources/choosingyouride" element = {<ChoosingYourIde/>}></Route>
+        <Route path = "/resources/node" element = {<NodeJs/>}></Route>
+        <Route path = "/resources/database" element = {<Database/>}></Route>
       </Routes>
     </div>
     </BrowserRouter>

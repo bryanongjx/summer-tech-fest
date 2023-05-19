@@ -30,10 +30,7 @@
 
 .sidebar {
   height: 100vh;
-  left: 0vw;
-  position: sticky;
 }
-
 
 @keyframes App-logo-spin {
   from {
