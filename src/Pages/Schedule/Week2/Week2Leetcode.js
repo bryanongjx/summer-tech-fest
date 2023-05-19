@@ -4,7 +4,7 @@ import NavBarSchedule from '../../../Components/NavBarSchedule'
 function Week2Leetcode() {
   return (
     <>
-      <h2 className="text-center">Week 2</h2>
+      <h2 className="text-center" style={{'marginTop': '20px'}}>Week 2</h2>
       <NavBarSchedule />
       <div className="container text-center mt-5">
       <h2>Topic: Two Pointers</h2>

@@ -4,7 +4,7 @@ import NavBarSchedule from '../../../Components/NavBarSchedule'
 function Week3Project() {
   return (
     <>
-      <h2 className="text-center">Week 3</h2>
+      <h2 className="text-center" style={{'marginTop': '20px'}}>Week 3</h2>
       <NavBarSchedule />
     </>
   );
