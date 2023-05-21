@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/summertechfest/static/css/main.241bf473.css",
+    "main.js": "/summertechfest/static/js/main.1351e2bf.js",
+    "static/js/787.498601f8.chunk.js": "/summertechfest/static/js/787.498601f8.chunk.js",
+    "static/media/vscodepicture.webp": "/summertechfest/static/media/vscodepicture.602f46707f44a393edf5.webp",
+    "index.html": "/summertechfest/index.html",
+    "main.241bf473.css.map": "/summertechfest/static/css/main.241bf473.css.map",
+    "main.1351e2bf.js.map": "/summertechfest/static/js/main.1351e2bf.js.map",
+    "787.498601f8.chunk.js.map": "/summertechfest/static/js/787.498601f8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.241bf473.css",
+    "static/js/main.1351e2bf.js"
+  ]
+}
