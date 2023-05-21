@@ -54,11 +54,15 @@ import Flutter from './Pages/resources/flutter';
 import Swift from './Pages/resources/swift';
 import Angular from './Pages/resources/angular';
 import UserGuide from './Pages/resources/userguide';
+import {createBrowserHistory} from 'history';
 
+const history = createBrowserHistory({
+  basename: '/summer-tech-fest' // Replace with your desired base path
+});
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter history = {history}>
     <NavigationBar/>
     <div>
       <Routes>
