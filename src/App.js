@@ -62,7 +62,7 @@ const history = createBrowserHistory({
 
 function App() {
   return (
-    <BrowserRouter history = {history}>
+    <BrowserRouter basename="/summer-tech-fest">
     <NavigationBar/>
     <div>
       <Routes>
