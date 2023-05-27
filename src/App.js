@@ -54,6 +54,7 @@ import Flutter from './Pages/resources/flutter';
 import Swift from './Pages/resources/swift';
 import Angular from './Pages/resources/angular';
 import UserGuide from './Pages/resources/userguide';
+import GoogleDrive from './Pages/resources/googledrive';
 import {createBrowserHistory} from 'history';
 
 const history = createBrowserHistory({
@@ -115,6 +116,7 @@ function App() {
         <Route path = "/resources/swift" element = {<Swift/>}></Route>
         <Route path = "/resources/angular" element = {<Angular/>}></Route>
         <Route path = "/resources/userguide" element = {<UserGuide/>}></Route>
+        <Route path = "/resources/googledrive" element = {<GoogleDrive/>}></Route>
       </Routes>
     </div>
     </BrowserRouter>

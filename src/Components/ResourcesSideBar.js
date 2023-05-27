@@ -38,6 +38,10 @@ const ResourcesSideBar = () => {
         <CNavItem>
             <Link to={`/resources/userguide`} className="nav-link">User Guide</Link>
         </CNavItem>
+
+        <CNavItem>
+            <Link to={`/resources/googledrive`} className="nav-link">Summer TechFest Google Drive</Link>
+        </CNavItem>
       </CSidebarNav>
     </CSidebar>
   );
