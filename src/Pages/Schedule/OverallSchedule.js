@@ -24,56 +24,56 @@ function OverallSchedule() {
           <tr>
             <td>2</td>
             <td>Two Pointers</td>
-            <td>Project ideation & consult with mentors</td>
-            <td>TBC</td>
+            <td>Project ideation & Research</td>
+            <td>-</td>
           </tr>
           <tr>
             <td>3</td>
             <td>Sliding Window</td>
-            <td>Getting familiar with technologies & setting up your team's GitHub repo</td>
-            <td>TBC</td>
+            <td>GitHub Repo Setup, UI/UX Design & more research</td>
+            <td>-</td>
           </tr>
           <tr>
             <td>4</td>
             <td>Stack</td>
-            <td>To be confirmed</td>
-            <td>TBC</td>
+            <td>Development of core features</td>
+            <td>-</td>
           </tr>
           <tr>
             <td>5</td>
             <td>Linked List</td>
-            <td>To be confirmed</td>
-            <td>TBC</td>
+            <td>Development of core features</td>
+            <td>-</td>
           </tr>
           <tr>
             <td>6</td>
             <td>Trees</td>
-            <td>To be confirmed</td>
-            <td>TBC</td>
+            <td>Development of main features</td>
+            <td>-</td>
           </tr>
           <tr>
             <td>7</td>
             <td>Heap</td>
-            <td>To be confirmed</td>
-            <td>TBC</td>
+            <td>Development of main features</td>
+            <td>-</td>
           </tr>
           <tr>
             <td>8</td>
             <td>BackTracking</td>
-            <td>To be confirmed</td>
-            <td>Resume Creation & Interview tips</td>
+            <td>Draft Submission</td>
+            <td>Resume Creation & Interview tips Workshop</td>
           </tr>
           <tr>
             <td>9</td>
             <td>Graphs</td>
-            <td>User Guide & Finalizing Project Submission</td>
-            <td>Resume Creation & Interview tips</td>
+            <td>Consultation w Mentors & User Guide</td>
+            <td>-</td>
           </tr>
           <tr>
             <td>10</td>
             <td>Dynamic Programming</td>
-            <td>User Guide & Finalizing Project Submission</td>
-            <td>Resume Creation & Interview tips</td>
+            <td>Final Submission</td>
+            <td>Briefing on final submission / Closing Ceremony</td>
           </tr>
         </tbody>
       </table>
