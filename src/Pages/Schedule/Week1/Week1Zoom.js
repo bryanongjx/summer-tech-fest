@@ -3,8 +3,8 @@ import NavBarSchedule from '../../../Components/NavBarSchedule';
 import { Container, Alert } from 'react-bootstrap';
 
 function Week1Zoom() {
-  const zoomLink = 'https://nus-sg.zoom.us/j/81213649950?pwd=OVc4OVVZbmxGVXVmUWhUQldVM2hUZz09'; // Replace with your actual Zoom link
-  const zoomDateTime = 'May 25, 2023 3:00 PM'; // Replace with your actual Zoom meeting date and time
+  const zoomLink = 'https://nus-sg.zoom.us/j/82461516498?pwd=UFR5ZXI1eDR1SE1FR0xQdDBxTFRtUT09'; // Replace with your actual Zoom link
+  const zoomDateTime = 'May 28, 2023 11:30 AM'; // Replace with your actual Zoom meeting date and time
 
   return (
     <>
